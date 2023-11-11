@@ -584,7 +584,7 @@ semana_f = f[:168]
 
 np_alturas = np.array(alturas)
 np_f = np.array(f)
-ECM = ((np_alturas - np_f)**2).mean()
+ECM = np.sqrt(((np_alturas - np_f)**2).mean())
 print(ECM)
 plt.clf()
 plt.plot(semana_tiempos,semana_alturas, color="red")
@@ -630,7 +630,7 @@ semana_x = x[:168]
 semana_f = f[:168]
 
 np_f = np.array(f)
-ECM = ((np_alturas - np_f)**2).mean()
+ECM = np.sqrt(((np_alturas - np_f)**2).mean())
 print(ECM)
 plt.clf()
 plt.plot(semana_tiempos,semana_alturas, color="red")
@@ -679,7 +679,7 @@ semana_x = x[:168]
 semana_f = f[:168]
 
 np_f = np.array(f)
-ECM = ((np_alturas - np_f)**2).mean()
+ECM = np.sqrt(((np_alturas - np_f)**2).mean())
 print(ECM)
 plt.clf()
 plt.plot(semana_tiempos,semana_alturas, color="red")
@@ -728,7 +728,7 @@ semana_x = x[:168]
 semana_f = f[:168]
 
 np_f = np.array(f)
-ECM = ((np_alturas - np_f)**2).mean()
+ECM = np.sqrt(((np_alturas - np_f)**2).mean())
 print(ECM)
 plt.clf()
 plt.plot(semana_tiempos,semana_alturas, color="red")
@@ -777,7 +777,7 @@ semana_x = x[:168]
 semana_f = f[:168]
 
 np_f = np.array(f)
-ECM = ((np_alturas - np_f)**2).mean()
+ECM = np.sqrt(((np_alturas - np_f)**2).mean())
 print(ECM)
 plt.clf()
 plt.plot(semana_tiempos,semana_alturas, color="red")
@@ -880,7 +880,7 @@ semana_x = x[:168]
 semana_f = f[:168]
 
 np_f = np.array(f)
-ECM = ((np_alturas - np_f)**2).mean()
+ECM = np.sqrt(((np_alturas - np_f)**2).mean())
 print(ECM)
 plt.clf()
 plt.plot(semana_tiempos,semana_alturas, color="red")
@@ -974,7 +974,7 @@ semana_f = f[:168]
 
 np_alturas = np.array(alturas)
 np_f = np.array(f)
-ECM = ((np_alturas - np_f)**2).mean()
+ECM = np.sqrt(((np_alturas - np_f)**2).mean())
 print(ECM)
 plt.clf()
 plt.plot(semana_tiempos,semana_alturas, color="red")
@@ -1110,7 +1110,7 @@ semana_x = x[:168]
 semana_f = f[:168]
 
 np_f = np.array(f)
-ECM = ((np_alturas - np_f)**2).mean()
+ECM = np.sqrt(((np_alturas - np_f)**2).mean())
 print(ECM)
 plt.clf()
 plt.plot(semana_tiempos,semana_alturas, color="red")
@@ -1141,7 +1141,7 @@ semana_tiempos = tiempos1
 
 np_f = np.array(f)
 np_alturas = np.array(alturas)
-ECM = ((np_alturas - np_f)**2).mean()
+ECM = np.sqrt(((np_alturas - np_f)**2).mean())
 print(ECM)
 
 plt.clf()
